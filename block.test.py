@@ -1,7 +1,8 @@
 import unittest
 from hashlib import sha256
 
-from blockchain import Block, Transaction
+from block import Block
+from transaction import Transaction
 
 
 class TestBlock(unittest.TestCase):
